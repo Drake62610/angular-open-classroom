@@ -11,10 +11,10 @@
                      [id]="appareil.id"></app-appareil>
       </ul>
       <button class="btn btn-success"
-              [disabled]="!isAuth"
+              [disabled]="!authStatus"
               (click)="onAllumer()">Tout allumer</button>
       <button class="btn btn-danger"
-              [disabled]="!isAuth"
+              [disabled]="!authStatus"
               (click)="onEteindre()">Tout éteindre</button>
     </div>
   </div>

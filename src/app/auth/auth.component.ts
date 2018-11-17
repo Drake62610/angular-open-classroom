@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
 })
 export class AuthComponent implements OnInit {
 
+  authStatus: boolean;
+
   constructor(private authService: AuthService, private router:Router) { }
 
   ngOnInit() {
