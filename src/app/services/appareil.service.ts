@@ -62,8 +62,8 @@ export class AppareilService {
   addAppareil(name: string, status: string){
     const appareilObject = {
       id: 0,
-      name='',
-      status=''
+      name:'',
+      status:''
     };
     appareilObject.name = name;
     appareilObject.status = status;

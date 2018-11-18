@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AppareilService } from '../services/appareil.service';
 import { Router } from '@angular/router'
+import { NgForm }   from '@angular/forms';
 
 @Component({
   selector: 'app-edit-appareil',
